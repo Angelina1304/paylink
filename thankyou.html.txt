@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Оплата підтверджена</title>
+</head>
+<body style="font-family: sans-serif; text-align: center; margin-top: 50px;">
+  <h1>✅ Дякуємо!</h1>
+  <p>Оплата успішна. Послуга підтверджена.</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Оплата за послугу</title>
+</head>
+<body style="font-family: sans-serif; text-align: center; margin-top: 50px;">
+  <h1>Оплата послуги</h1>
+  <p>Натисніть кнопку нижче, щоб оплатити послугу через PayPal</p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="anhelina_rey13@ukr.net">
+    <input type="hidden" name="item_name" value="Послуга">
+    <input type="hidden" name="amount" value="700.00">
+    <input type="hidden" name="currency_code" value="USD">
+    <input type="hidden" name="return" value="https://YOUR-SITE.github.io/thankyou.html">
+    <input type="submit" value="Оплатити через PayPal">
+  </form>
+</body>
+</html>
